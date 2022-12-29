@@ -1,4 +1,4 @@
-import Users from '../models/userModel.js'
+import Users from '../models/UserModel.js'
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 import googleAuth from '../middleware/googleAuth.js'
