@@ -5,6 +5,6 @@ import shortUrlController from "../controllers/shortUrlCtrl.js";
 // to make the url short
 router.post('/short', auth, shortUrlController.shortUrl)
 // get the url by it's generated id 
-router.get('/:urlId', auth, shortUrlController.getUrlbyId)
+router.get('/:urlId', shortUrlController.getUrlbyId)
 
 export default router
